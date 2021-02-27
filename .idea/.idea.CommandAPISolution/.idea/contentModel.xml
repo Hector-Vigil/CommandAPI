@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CommandAPISolution.sln" t="IncludeFlat" />
+      <e p="src" t="Include">
+        <e p="CommandAPI" t="IncludeRecursive">
+          <e p="CommandAPI.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="test" t="Include">
+        <e p="CommandAPI.Tests" t="IncludeRecursive">
+          <e p="CommandAPI.Tests.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_CommandAPISolution.392231094.00" t="ExcludeRecursive" />
+  </component>
+</project>
