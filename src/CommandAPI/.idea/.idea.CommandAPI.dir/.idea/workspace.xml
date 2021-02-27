@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b28311a-b58e-433e-b98d-96200b83f0fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Controllers/CommandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CommandsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9b28311a-b58e-433e-b98d-96200b83f0fb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614420006599</updated>
-      <workItem from="1614420057916" duration="496000" />
+      <workItem from="1614420057916" duration="638000" />
     </task>
     <servers />
   </component>
@@ -114,5 +111,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1614420806001">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614420806001" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1614420805998">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614420805998" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1614420805997">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614420805997" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1614420805999">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614420805999" />
+    <state x="100" y="100" width="1080" height="600" key="VCS.FileHistoryDialog" timestamp="1614420806260">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="VCS.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1614420806260" />
   </component>
 </project>
