@@ -23,6 +23,12 @@
             <e p="CommandContext.cs" t="Include" />
             <e p="ICommandAPIRepo.cs" t="Include" />
             <e p="MockCommandAPIRepo.cs" t="Include" />
+            <e p="SqlCommandAPIRepo.cs" t="Include" />
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="20210228043106_AddCommandsToDB.cs" t="Include" />
+            <e p="20210228043106_AddCommandsToDB.Designer.cs" t="Include" />
+            <e p="CommandContextModelSnapshot.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
             <e p="Command.cs" t="Include" />
