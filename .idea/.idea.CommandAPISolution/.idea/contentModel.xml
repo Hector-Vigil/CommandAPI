@@ -20,6 +20,7 @@
             <e p="CommandsController.cs" t="Include" />
           </e>
           <e p="Data" t="Include">
+            <e p="CommandContext.cs" t="Include" />
             <e p="ICommandAPIRepo.cs" t="Include" />
             <e p="MockCommandAPIRepo.cs" t="Include" />
           </e>
