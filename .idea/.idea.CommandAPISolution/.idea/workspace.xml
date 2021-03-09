@@ -26,11 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c0658b-dfe3-40ad-b2e7-09f21684b79f" name="Default Changelist" comment="Added CommandContext to Solution">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommandAPI/CommandAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/CommandAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandAPI/Models/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Models/Command.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommandAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandAPI/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +61,16 @@
       <list>
         <option value="$PROJECT_DIR$/.git/info/exclude" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Data/CommandContext.cs" />
-        <option value="$PROJECT_DIR$/src/CommandAPI/Models/Command.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/appsettings.json" />
         <option value="$PROJECT_DIR$/src/CommandAPI/CommandAPI.csproj" />
         <option value="$PROJECT_DIR$/src/CommandAPI/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Models/Command.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfiles.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfile.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Dtos/CommandReadDto.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +134,7 @@
       <workItem from="1614419834570" duration="173000" />
       <workItem from="1614420791781" duration="6697000" />
       <workItem from="1614532647539" duration="173000" />
-      <workItem from="1615233057985" duration="3629000" />
+      <workItem from="1615233057985" duration="9857000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Controller Updates">
       <created>1614466944884</created>
@@ -173,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614490389378</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Secured the connection string">
+      <created>1615241561338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615241561338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,28 +210,29 @@
     <MESSAGE value="Minor Controller Updates" />
     <MESSAGE value="Added DB context class" />
     <MESSAGE value="Added CommandContext to Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Secured the connection string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Secured the connection string" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1615240455863">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1615322242688">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1615240455863" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1615322242688" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1614532391696" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1615240455860">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1615322242686">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1615240455860" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1615322242686" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1614532391695" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1615240455859">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1615322242684">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1615240455859" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1615322242684" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1614532391694" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1615240455861">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1615322242687">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1615240455861" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1615322242687" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1614532391696" />
     <state x="451" y="108" key="RiderGenerateDialog" timestamp="1614489121376">
       <screen x="0" y="0" width="1280" height="800" />
@@ -229,9 +242,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1614419989743" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1614490413155">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615241565543">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1614490413155" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615241565543" />
   </component>
 </project>

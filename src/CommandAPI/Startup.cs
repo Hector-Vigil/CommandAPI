@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
+using AutoMapper;
 
 namespace CommandAPI
 {
@@ -32,6 +33,7 @@ namespace CommandAPI
             builder.Password = Configuration["Password"];
             services.AddDbContext<CommandContext>(opt => opt.UseNpgsql
                 (builder.ConnectionString));
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllers();
             services.AddScoped<ICommandAPIRepo,SqlCommandAPIRepo>();
         }
