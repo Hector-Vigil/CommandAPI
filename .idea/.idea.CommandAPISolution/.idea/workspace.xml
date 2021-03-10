@@ -25,13 +25,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c0658b-dfe3-40ad-b2e7-09f21684b79f" name="Default Changelist" comment="Implement Create (POST) resource endpoint">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="84c0658b-dfe3-40ad-b2e7-09f21684b79f" name="Default Changelist" comment="Implement Update (PUT) resource endpoint">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommandAPI/CommandAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/CommandAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommandAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +64,14 @@
         <option value="$PROJECT_DIR$/src/CommandAPI/CommandAPI.csproj" />
         <option value="$PROJECT_DIR$/src/CommandAPI/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Models/Command.cs" />
-        <option value="$PROJECT_DIR$/src/CommandAPI/Startup.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfiles.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Dtos/CommandReadDto.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Dtos/CommandCreateDto.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Dtos/CommandUpdateDto.cs" />
-        <option value="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfile.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +135,7 @@
       <workItem from="1614419834570" duration="173000" />
       <workItem from="1614420791781" duration="6697000" />
       <workItem from="1614532647539" duration="173000" />
-      <workItem from="1615233057985" duration="19043000" />
+      <workItem from="1615233057985" duration="21699000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Controller Updates">
       <created>1614466944884</created>
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615328667441</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implement Update (PUT) resource endpoint">
+      <created>1615414956472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615414956473</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,28 +235,29 @@
     <MESSAGE value="Secured the connection string" />
     <MESSAGE value="Implement Dtos" />
     <MESSAGE value="Implement Create (POST) resource endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Create (POST) resource endpoint" />
+    <MESSAGE value="Implement Update (PUT) resource endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Update (PUT) resource endpoint" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1615413692459">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1615417167695">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1615413692459" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1615417167695" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1614532391696" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1615413692458">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1615417167693">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1615413692458" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1615417167693" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1614532391695" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1615413692455">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1615417167693">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1615413692455" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1615417167693" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1614532391694" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1615413692459">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1615417167694">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1615413692459" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1615417167694" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1614532391696" />
     <state x="451" y="108" key="RiderGenerateDialog" timestamp="1614489121376">
       <screen x="0" y="0" width="1280" height="800" />
