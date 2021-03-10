@@ -37,7 +37,7 @@ namespace CommandAPI.Data
 
         public void UpdateCommand(Command cmd)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public void DeleteCommand(Command cmd)
