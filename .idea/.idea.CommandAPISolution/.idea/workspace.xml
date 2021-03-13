@@ -26,10 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c0658b-dfe3-40ad-b2e7-09f21684b79f" name="Default Changelist" comment="Implement Delete (DELETE) resource endpoint">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CommandAPI.Tests/CommandAPI.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/CommandAPI.Tests/CommandAPI.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CommandAPI.Tests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CommandAPI.Tests/CommandsControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/CommandAPI.Tests/CommandsControllerTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/hector/Developer/VS_code/CommandAPISolution/test/CommandAPI.Tests/CommandsControllerTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/ICommandAPIRepo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/CommandContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -137,7 +136,7 @@
       <workItem from="1614420791781" duration="6697000" />
       <workItem from="1614532647539" duration="173000" />
       <workItem from="1615233057985" duration="23790000" />
-      <workItem from="1615483962299" duration="7691000" />
+      <workItem from="1615483962299" duration="12562000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Controller Updates">
       <created>1614466944884</created>
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615418063649</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Created unit tests, one for Models and the other for Controllers">
+      <created>1615600834298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615600834298</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +569,8 @@
     <MESSAGE value="Implement Update (PUT) resource endpoint" />
     <MESSAGE value="Implement Update (PATCH) resource endpoint" />
     <MESSAGE value="Implement Delete (DELETE) resource endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Delete (DELETE) resource endpoint" />
+    <MESSAGE value="Created unit tests, one for Models and the other for Controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created unit tests, one for Models and the other for Controllers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615593318856">
@@ -574,25 +581,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1615481607441" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1615595561488">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1615600671992">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1615595561488" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1615600671992" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1614532391696" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1615595561486">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1615600671990">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1615595561486" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1615600671990" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1614532391695" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1615595561485">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1615600671990">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1615595561485" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1615600671990" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1614532391694" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1615595561487">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1615600671991">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1615595561487" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1615600671991" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1614532391696" />
     <state x="451" y="108" key="RiderGenerateDialog" timestamp="1614489121376">
       <screen x="0" y="0" width="1280" height="800" />
@@ -602,9 +609,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1614419989743" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615418065985">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615600841896">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615418065985" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615600841896" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1615602906148">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1615602906148" />
   </component>
 </project>
