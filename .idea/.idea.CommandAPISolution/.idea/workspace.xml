@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84c0658b-dfe3-40ad-b2e7-09f21684b79f" name="Default Changelist" comment="Implement Delete (DELETE) resource endpoint">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azure-pipelines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/azure-pipelines.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/hector/Developer/VS_code/CommandAPISolution/test/CommandAPI.Tests/CommandsControllerTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/ICommandAPIRepo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/CommandContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/hector/Developer/VS_code/CommandAPISolution/test/CommandAPI.Tests/CommandsControllerTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Migrations/20210228043106_AddCommandsToDB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,9 +68,10 @@
         <option value="$PROJECT_DIR$/src/CommandAPI/Profiles/CommandsProfile.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Startup.cs" />
         <option value="$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" />
-        <option value="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" />
         <option value="$PROJECT_DIR$/test/CommandAPI.Tests/CommandTests.cs" />
         <option value="$PROJECT_DIR$/test/CommandAPI.Tests/CommandsControllerTests.cs" />
+        <option value="$PROJECT_DIR$/src/CommandAPI/Controllers/CommandsController.cs" />
+        <option value="$PROJECT_DIR$/azure-pipelines.yml" />
       </list>
     </option>
   </component>
@@ -136,7 +136,8 @@
       <workItem from="1614420791781" duration="6697000" />
       <workItem from="1614532647539" duration="173000" />
       <workItem from="1615233057985" duration="23790000" />
-      <workItem from="1615483962299" duration="13157000" />
+      <workItem from="1615483962299" duration="13744000" />
+      <workItem from="1615825832784" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Controller Updates">
       <created>1614466944884</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615606258359</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added a reminder to clean up code">
+      <created>1615821678226</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615821678226</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +586,8 @@
     <MESSAGE value="Implement Delete (DELETE) resource endpoint" />
     <MESSAGE value="Created unit tests, one for Models and the other for Controllers" />
     <MESSAGE value="Completed unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed unit tests" />
+    <MESSAGE value="Added a reminder to clean up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a reminder to clean up code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615593318856">
@@ -617,10 +626,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1614419989743" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615606260299">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615821765048">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615606260299" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615821765048" />
     <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1615602906148">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
