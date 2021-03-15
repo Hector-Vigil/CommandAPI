@@ -137,7 +137,7 @@
       <workItem from="1614532647539" duration="173000" />
       <workItem from="1615233057985" duration="23790000" />
       <workItem from="1615483962299" duration="13744000" />
-      <workItem from="1615825832784" duration="489000" />
+      <workItem from="1615825832784" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Controller Updates">
       <created>1614466944884</created>
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615821678226</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added Unit Testing">
+      <created>1615826791259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615826791259</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +594,8 @@
     <MESSAGE value="Created unit tests, one for Models and the other for Controllers" />
     <MESSAGE value="Completed unit tests" />
     <MESSAGE value="Added a reminder to clean up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a reminder to clean up code" />
+    <MESSAGE value="Added Unit Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Unit Testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615593318856">
@@ -626,10 +634,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1614419989743" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615821765048">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615826795538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615821765048" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615826795538" />
     <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1615602906148">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
