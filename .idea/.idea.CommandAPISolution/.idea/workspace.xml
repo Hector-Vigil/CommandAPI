@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84c0658b-dfe3-40ad-b2e7-09f21684b79f" name="Default Changelist" comment="Implement Delete (DELETE) resource endpoint">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandAPISolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CommandAPI.Tests/CommandsControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/CommandAPI.Tests/CommandsControllerTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/CommandContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/hector/Developer/VS_code/CommandAPISolution/test/CommandAPI.Tests/CommandsControllerTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Migrations/20210228043106_AddCommandsToDB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Data/SqlCommandAPIRepo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CommandAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,7 +136,7 @@
       <workItem from="1614420791781" duration="6697000" />
       <workItem from="1614532647539" duration="173000" />
       <workItem from="1615233057985" duration="23790000" />
-      <workItem from="1615483962299" duration="12562000" />
+      <workItem from="1615483962299" duration="13157000" />
     </task>
     <task id="LOCAL-00001" summary="Minor Controller Updates">
       <created>1614466944884</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615600834298</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Completed unit tests">
+      <created>1615606258359</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615606258359</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +577,8 @@
     <MESSAGE value="Implement Update (PATCH) resource endpoint" />
     <MESSAGE value="Implement Delete (DELETE) resource endpoint" />
     <MESSAGE value="Created unit tests, one for Models and the other for Controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created unit tests, one for Models and the other for Controllers" />
+    <MESSAGE value="Completed unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed unit tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615593318856">
@@ -609,10 +617,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1614419989743" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615600841896">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1615606260299">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615600841896" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615606260299" />
     <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1615602906148">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
