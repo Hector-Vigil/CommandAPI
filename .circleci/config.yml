@@ -11,8 +11,8 @@
        - checkout
        - run: dotnet build
        - persist_to_workspace:
-           root: 
+           root: /project
            paths:
              - test
        - store_test_results:
-          path: /test
+          path: project/test
