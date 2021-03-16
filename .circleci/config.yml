@@ -10,5 +10,9 @@
      steps:
        - checkout
        - run: dotnet build
+       - persist_to_workspace:
+           root: /tmp
+           paths:
+             - dir
        - store_test_results:
-          path: test-results
+          path: /tmp/dir/test-results
