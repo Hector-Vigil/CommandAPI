@@ -15,4 +15,4 @@
            paths:
              - test
        - store_test_results:
-          path: project/test
+          path: test
