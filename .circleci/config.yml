@@ -1,26 +1,34 @@
- version: 2.1
+version: 2
+jobs:
+  build_and_deploy:
+    docker:
+      - image: microsoft/dotnet:2.2-sdk
 
- orbs:
-  win: circleci/windows@2.2.0
+      - run: 
+         name: Build
+         command: |
+            dotnet build 
+      #- run: dotnet test --no-build --logger "trx"
+      - run:
+          name: Run tests
+          command: |
+            dotnet test --logger trx --results-directory "..\TestResults"
 
- jobs:
-   build:
-     executor: win/default
+            # ...
 
-     steps:
-       - checkout
-       - run: dotnet build
-       - run: dotnet test --no-build --logger "trx"
-       - run:
-           name: test results
-           when: always
-           command: |
-             dotnet tool install -g trx2junit
-             echo 'export PATH="$PATH:/root/.dotnet/tools"' >> "$BASH_ENV"
-             trx2junit tests/**/TestResults/*.trx
-       - store_test_results:
-           path: tests/TestResults
-       - store_artifacts:
-           path: tests/TestResults
-           destination: TestResults
+      - run:
+          name: Install TRX 2 JUnit converter
+          command: |
+            export PATH="$PATH:/root/.dotnet/tools"
+            dotnet tool install -g trx2junit
+          when: always
+
+      - run:
+          name: Convert TRX test results to JUnit format
+          command: |
+            /root/.dotnet/tools/trx2junit TestResults/*.trx
+          when: always
+
+      - store_test_results:
+          path: TestResults
 
