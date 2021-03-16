@@ -10,10 +10,16 @@
      steps:
        - checkout
        - run: dotnet build
-       - persist_to_workspace:
-           root: /
-           paths:
-             - test
-       - run: dotnet test 
+       - run: dotnet test --no-build --logger "trx"
+       - run:
+           name: test results
+           when: always
+           command: |
+             dotnet tool install -g trx2junit
+             echo 'export PATH="$PATH:/root/.dotnet/tools"' >> "$BASH_ENV"
+             trx2junit tests/**/TestResults/*.trx
        - store_test_results:
-          path: test
+           path: tests/TestResults
+       - store_artifacts:
+           path: tests/TestResults
+           destination: TestResults
