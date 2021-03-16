@@ -14,5 +14,6 @@
            root: /
            paths:
              - test
+       - run: dotnet test 
        - store_test_results:
           path: test
