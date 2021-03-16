@@ -1,19 +1,30 @@
- version: 2.1
+version: 2.1
 
- orbs:
-  win: circleci/windows@2.2.0
+jobs:
+  build_and_deploy:
+    docker:
+      - image: microsoft/dotnet:3.1-sdk
 
- jobs:
-   build:
-     executor: win/default     
-    
-     steps:
-       - checkout
-       - run: dotnet build
-       - persist_to_workspace:
-           root: /
-           paths:
-             - test
-       - run: dotnet test 
-       - store_test_results:
-          path: test
+    steps:
+      - checkout
+      - run: dotnet build
+          name: Run tests
+          command: |
+            dotnet test --logger trx --results-directory "..\TestResults"
+      - run:
+          name: Install TRX 2 JUnit converter
+          command: |
+            export PATH="$PATH:/root/.dotnet/tools"
+            dotnet tool install -g trx2junit
+          when: always
+      - run:
+          name: Convert TRX test results to JUnit format
+          command: |
+            /root/.dotnet/tools/trx2junit TestResults/*.trx
+          when: always
+      - store_test_results:
+          path: TestResults
+      - store_artifacts:
+          path: tests/TestResults
+          destination: TestResults
+
