@@ -17,9 +17,9 @@
            command: |
              dotnet tool install -g trx2junit
              echo 'export PATH="$PATH:/root/.dotnet/tools"' >> "$BASH_ENV"
-             trx2junit test/TestResults/*.trx
+             trx2junit test/CommandAPI.Tests/TestResults/*.trx
        - store_test_results:
-           path: test/TestResults
+           path: test/CommandAPI.Tests/TestResults
        - store_artifacts:
-           path: test/TestResults
+           path: test/CommandAPI.Tests/TestResults
            destination: TestResults
