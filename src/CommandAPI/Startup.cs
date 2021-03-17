@@ -29,10 +29,10 @@ namespace CommandAPI
         public void ConfigureServices(IServiceCollection services)
         {
             var builder = new NpgsqlConnectionStringBuilder();
-            builder.ConnectionString = Configuration.GetConnectionString("PostgreSqlConnection");
+            builder.ConnectionString = Configuration.GetConnectionString("DefaultConnection");
             builder.Username = Configuration["UserId"];
             builder.Password = Configuration["Password"];
-            services.AddDbContext<CommandContext>(opt => opt.UseNpgsql
+            services.AddDbContext<CommandContext>(opt => opt.UseSqlServer
                 (builder.ConnectionString));
             services.AddControllers().AddNewtonsoftJson(s =>
                 s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
